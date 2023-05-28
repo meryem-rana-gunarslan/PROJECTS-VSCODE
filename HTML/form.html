@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="#" method="get">
+       <label for ="u.name">Username*</label>
+         <input type = "text" id="u.name" name="a" required>
+         <br>
+         <label for ="password">Password*</label>
+         <input type ="password" id="password">
+         <br>
+
+         <label for = "email">Email*</label>
+         <input type ="email" required autofocus>
+         <br>
+
+         <label for = "search">Search*</label>
+         <input type="search" autofocus>
+         <br>
+
+         <label for = "url">Linkedin URL*</label>
+         <input type="url" name = "c" id = "url">
+         <br>
+
+         <label for = "file"></label>
+         <input type="file" name ="d[]" id="file" multiple accept="image/*">
+         <br>
+
+         <h4> Favori sporlar</h4>
+         <label for="cx1">Futbol</label>
+         <input type="checkbox" id="cx1">
+
+         <label for="cx2">Basketbol</label>
+         <input type="checkbox" id="cx2">
+
+         <label for="cx3">Voleybol</label>
+         <input type="checkbox" id="cx3">
+   
+         <br>
+         <input type="checkbox" id="cx4">
+         <label for="cx4">Kurallar</label>
+         <br>
+         <br>
+         <label for="Erkek">Erkek</label>
+         <input type="radio" name="f" id="erkek">
+         <label for="Bayan">Bayan</label>
+         <input type="radio" name="f" id="bayan">
+         <br>
+         <input type="color" name="h" id="color">
+         <br>
+         <input type="datetime-local" name="i" id="datetime">
+         <br>
+         <input type="date" name="g" id="date">
+         <br>
+         <input type="week" name="l" id="week">
+         <br>
+         <input type="range" name="y" id="range" min="0" max="100" step="10">
+         <br>
+
+         <label for="web">Web Tasarim</label>
+        <select name="web" id="web">
+            <optgroup>Front-end diller</optgroup>
+            <option value="Html">Html</option>
+            <option value="css">Css</option>
+            <option value="java">Java</option>
+            <option value="JS">JS</option>
+
+            <optgroup label="Back-end diller"></optgroup>
+            <option value="JS">JS</option>
+            <option value="Java">Java</option>
+        </select>
+
+        <br>
+        <input type="hidden" name="hidden" value="gizlibilgi">
+
+        <br>
+<textarea name="metin" id="metin" cols="30" rows="10">metmi buraya giriniz.</textarea>       
+<br>
+         <input type="submit" formaction="a.html" value="Gonder">
+         <input type="submit" formtarget="_blank" value="Gonder3">
+        <input type="reset" value="Reset">
+
+         <button>Gonder</button>
+
+
+
+    </form>
+</body>
+</html>

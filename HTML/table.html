@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 5px solid blue;  
+        }
+
+        th{
+            border:1px solid red;
+
+        }
+
+        tr:nth-child(even){
+            background-color: aqua;
+
+
+        }
+        td:nth-child(even){
+            background-color: greenyellow;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Taksit</th>
+                <th>Taksit Tutari</th>
+                <th>Toplam Tutar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 3</td>
+                <td>10 tl</td>
+                <td>30 tl</td>
+            </tr>
+
+             <tr>
+            <td>2</td>
+            <td>20 tl</td>
+            <td>40 tl</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>20 tl</td>
+                <td>100 tl</td>
+                </tr>
+
+         <tr>
+            <td>7</td>
+            <td>14 tl</td>
+            <td>49 tl</td>
+        </tr>
+        </tbody>
+        <br>
+
+        <table>
+<br>
+<br>
+            <caption>Urun Bilgisi</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Stoklar</th>
+            
+                    <th colspan="2"> Welcome</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sira No</td>
+                    <td>Stok Adi</td>
+                    <td>Stok Adeti</td>
+                    <td>Satis Adeti</td>
+                </tr>
+
+            <tr>
+                <td>1</td>
+                <td>kalem</td>
+                <td rowspan="3">10</td>
+                <td>15</td>
+            </tr>
+
+                <tr>
+                  <td>2</td>
+                  <td rowspan="2">defter</td>  
+                  <td>30</td>
+                  </tr>
+
+
+                <tr>
+                    <td>3</td>
+                    
+                    <td>12</td>
+
+                    </tr>
+            </tbody>
+
+        </table>
+
+
+
+
+    </table>
+
+
+</body>
+</html>

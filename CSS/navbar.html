@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <!--
+        flex-wrap standart nowrap idi. tarayıcı kuculdugunde ögelerin aşagı dogru inmesini istiyor isek wrap yapmalıyız. örnegin 600px geldiginde dircetion rovdan columna cevirecegiz.
+        -->
+    <style>
+        /*
+       bg-color:goldenrod;
+       hover: rgb(233,184,61)
+       */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .navigation {
+            list-style: none;
+            background-color: gold;
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        .navigation a {
+            text-decoration: none;
+            /*altında ki çizgileri yokeder*/
+            display: block;
+            /* ustten alttan padding vermesi için burayı block yapmalıyız. a elemanları varsayılan inline olur.ustten alttan padding olmaz.*/
+            padding: 16px;
+        }
+        .navigation a:hover{
+            background-color:rgb(233,184,61);
+        }
+        @media all and (max-width:800px){
+            .navigation {
+                justify-content: space-around;
+            }
+        }
+        @media all and (max-width: 600px){
+            .navigation{
+                flex-direction : column;
+            }
+            .navigation a{
+                text-align: center;
+                padding: 10px;
+                border-top: 1px solid rgb(255,255,255,0.3);
+                border-bottom: 1px solid rgba(0,0,0, 0.1);
+            }
+            .navigation li:last-child a {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>
