@@ -34,7 +34,7 @@ else{
 
 
 //odev 84 (ERROR)
-/*
+
 var result = Math.floor(Math.random() * 5) + 1;
 
 var userNumber = prompt('Enter a number from 1 to 5.');
@@ -49,7 +49,7 @@ else if(result == userNumber){
 else{
     alert('Your answer is invalid, try again by refreshing the page.');
 }
-*/
+
 //switch
 var time = "Morning"
 switch(time){
