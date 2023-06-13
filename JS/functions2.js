@@ -2,10 +2,9 @@
 
 
 function fruitTypes() {
-    fruit = 'banana';
+    var fruit = 'banana';
 
-
-    if (fruit = 'apple') {
+    if (fruit == 'apple') {
         console.log('This is an apple.');
     }
 
