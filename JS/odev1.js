@@ -60,9 +60,10 @@ var subtraction = () =>{
     var num2 = -7;
     total = num1 - num2;
     subtraction = total;
-    console.log(`The answer is ${subtraction}`);
+    console.log(`The answer is ${subtraction}.`);
 
 };
+subtraction();
 
 //page 126
 var hello = (name) => 'Hello ' + name;
