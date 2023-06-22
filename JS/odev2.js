@@ -1,4 +1,4 @@
-//Arrays 17
+//Arrays video
 // Arrays
 let names = ['çinar', 'sena', 'ada', 'yigit'];
 let years = [2017, 1999, 2012, 2010];
@@ -62,5 +62,43 @@ console.log(typeof names);
 
 // console.log (years);
 // console.log(mix);
+
+//150
+someOddNumbers = [1, 3, 5, 7, 9, "Onbir", "Onüç"];
+someOddNumbers[1] = "Üç";
+someOddNumbers[5] = 11;
+console.log(someOddNumbers);
+
+//158
+teamJuniors = ["Ali", "Ayşe", "Ahmet", "Aslı"]
+teamSeniors = ["Mehmet", "Zeynep", "Burak", "Ece"]
+teamJuniors.pop("Ahmet")
+teamJuniors.concat("Deniz")
+
+teamSeniors.pop("Burak")
+teamSeniors.concat("Gizem")
+theTeam = teamJuniors + teamSeniors;
+
+console.log(theTeam)
+
+//173 
+
+ 
+for (let i = -5; i < 5; i++) {
+    console.log(i);
+
+
+    
+}
+for(let i = 1; i < 7;i++){
+    console.log(7);
+}
+
+
+//178 
+for (let i =+ 2; i < 2 ; i++){
+    console.log(i);
+;}
+
 
 
